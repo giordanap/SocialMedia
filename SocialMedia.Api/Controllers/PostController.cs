@@ -12,6 +12,7 @@ namespace SocialMedia.Api.Controllers
     public class PostController : ControllerBase
     {
         [HttpGet]
+        // Metodo publico en la clase que retornara un IActionResult
         public IActionResult GetPosts()
         {
             // Devuelve un status 200
